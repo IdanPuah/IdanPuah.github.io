@@ -12,6 +12,10 @@
     font-weight: bold;
     font-style: normal;
 }
+.skills{
+    font-family: 'MyCustomBold', sans-serif;
+    color: #00BFFF;
+}
 
 .container-fluid {
     background-image: url('background.jpg'); /* Path to your image */
