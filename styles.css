@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'MyCustomFont'; /* Your custom font name */
+    src: url('fonts/Birzia_Family/Birzia-Light.woff') format('woff'); /* Path to the font file in public/fonts folder */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MyCustomBold'; /* Your custom font name */
+    src: url('fonts/Birzia_Family/Birzia-Bold.woff') format('woff'); /* Path to the font file in public/fonts folder */
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+.container-fluid {
+    background-image: url('background.jpg'); /* Path to your image */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+.row-title{
+    
+    margin-top: 5%;
+    margin-bottom: 5%; /* Add a bottom margin of 10% */
+    box-shadow: 0 2px 15px rgba(236, 235, 235, 1.1);
+}
+.head-title{
+    color: white; /* Set the text color to white */
+    font-family: 'MyCustomBold', sans-serif;
+    font-size: 4.5rem; /* Set the font size to 3rem */
+    text-align: center;
+}
+
+.second-title{
+    color: #00BFFF; /* Set the text color to white */
+    font-family: 'MyCustomBold', sans-serif;
+    font-size: 2.7rem; /* Set the font size to 2rem */
+    text-align: center;
+}
+
+.project-title{
+    color: white; /* Set the text color to white */
+    font-family: 'MyCustomBold', sans-serif;
+    font-size: 1.7rem; /* Set the font size to 2rem */
+}
+.project-description{
+    color: white; /* Set the text color to white */
+    font-family: 'MyCustomFont', sans-serif;
+    font-size: 1.2rem; /* Set the font size to 1.2rem */
+    padding: 1%;
+}
+
+.button-container{
+    text-align: center; /* Align the button to the center */
+    margin-top: 1%; /* Add a top margin of 5% */
+    margin-bottom: 1%; /* Add a bottom margin of 5% */
+}
+.button {
+    display: inline-block; /* Allows the button to sit inline with other elements */
+    padding: 10px 20px; /* Padding around the text */
+    font-size: 16px; /* Font size */
+    color: white; /* Text color */
+    background-color: #007bff; /* Button background color */
+    border: none; /* No border */
+    border-radius: 10px; /* Rounded corners */
+    width: auto;
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+.button:hover {
+    background-color: #0056b3; /* Darker background on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+.contact-row{
+    padding: 0.7%;
+    background-color: #191970;
+}
+
+.contact-info{
+    color: white; /* Set the text color to white */
+    font-family: 'MyCustomFont', sans-serif;
+    font-size: 1.5rem; /* Set the font size to 1.2rem */
+    padding-right: 1.5%;
+}
+
+.icon-white {
+    color: white; /* Set icon color to white */
+    
+}
+
+.contact-link{
+    text-decoration: none; /* Remove underline from links */
+            color: inherit;
+}
