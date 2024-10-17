@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'MyCustomFont'; /* Your custom font name */
-    src: url('fonts/Birzia_Family/Birzia-Light.woff') format('woff'); /* Path to the font file in public/fonts folder */
+    src: url('Birzia-Light.woff') format('woff'); /* Path to the font file in public/fonts folder */
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'MyCustomBold'; /* Your custom font name */
-    src: url('fonts/Birzia_Family/Birzia-Bold.woff') format('woff'); /* Path to the font file in public/fonts folder */
+    src: url('Birzia-Bold.woff') format('woff'); /* Path to the font file in public/fonts folder */
     font-weight: bold;
     font-style: normal;
 }
