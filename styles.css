@@ -117,7 +117,8 @@
     }
 
     .contact-info {
-        font-size: 1.2rem; /* Adjusted font size for smaller screens */
+        padding-right: 1.0%;
+        font-size: 0.9rem; /* Adjusted font size for smaller screens */
     }
 
     .button {
