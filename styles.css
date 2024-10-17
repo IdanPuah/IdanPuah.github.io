@@ -1,18 +1,3 @@
-@font-face {
-    font-family: 'MyCustomFont'; /* Your custom font name */
-    src: url('Birzia-Light.woff') format('woff'); /* Path to the font file in public/fonts folder */
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'MyCustomBold'; /* Your custom font name */
-    src: url('Birzia-Bold.woff') format('woff'); /* Path to the font file in public/fonts folder */
-    font-weight: bold;
-    font-style: normal;
-}
-
-
 
 .container-fluid {
     background-image: url('background.jpg'); /* Path to your image */
@@ -21,34 +6,37 @@
     background-repeat: no-repeat; /* Prevents the image from repeating */
 }
 .row-title{
-    
+   
     margin-top: 5%;
     margin-bottom: 5%; /* Add a bottom margin of 10% */
-    box-shadow: 0 2px 15px rgba(236, 235, 235, 1.1);
+    box-shadow: 0 2px 30px rgba(241, 240, 240, 1.2);
 }
 .head-title{
     color: white; /* Set the text color to white */
-    font-family: 'MyCustomBold', sans-serif;
-    font-size: 4.5rem; /* Set the font size to 3rem */
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: bold;
+    font-size: 6.5rem; /* Set the font size to 3rem */
     text-align: center;
 }
 
 .second-title{
     color: #00BFFF; /* Set the text color to white */
-    font-family: 'MyCustomBold', sans-serif;
-    font-size: 2.7rem; /* Set the font size to 2rem */
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: bold;
+    font-size: 4.0rem; /* Set the font size to 2rem */
     text-align: center;
 }
 
 .project-title{
     color: white; /* Set the text color to white */
-    font-family: 'MyCustomBold', sans-serif;
-    font-size: 1.7rem; /* Set the font size to 2rem */
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: bold;
+    font-size: 2.7rem; /* Set the font size to 2rem */
 }
 .project-description{
     color: white; /* Set the text color to white */
-    font-family: 'MyCustomFont', sans-serif;
-    font-size: 1.2rem; /* Set the font size to 1.2rem */
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem; /* Set the font size to 1.2rem */
     padding: 1%;
 }
 
