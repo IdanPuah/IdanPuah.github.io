@@ -1,4 +1,18 @@
 
+@font-face {
+    font-family: 'MyCustomFont'; /* Your custom font name */
+    src: url('Birzia-Light.woff') format('woff'); /* Path to the font file in public/fonts folder */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MyCustomBold'; /* Your custom font name */
+    src: url('Birzia-Bold.woff') format('woff'); /* Path to the font file in public/fonts folder */
+    font-weight: bold;
+    font-style: normal;
+}
+
 .container-fluid {
     background-image: url('background.jpg'); /* Path to your image */
     background-size: cover; /* Ensures the image covers the entire container */
@@ -13,29 +27,29 @@
 }
 .head-title{
     color: white; /* Set the text color to white */
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'MyCustomBold', sans-serif;
     font-weight: bold;
-    font-size: 5.5rem; /* Set the font size to 3rem */
+    font-size: 4.2rem; /* Set the font size to 3rem */
     text-align: center;
 }
 
 .second-title{
     color: #00BFFF; /* Set the text color to white */
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'MyCustomBold', sans-serif;
     font-weight: bold;
-    font-size: 3.5rem; /* Set the font size to 2rem */
+    font-size: 2.5rem; /* Set the font size to 2rem */
     text-align: center;
 }
 
 .project-title{
     color: white; /* Set the text color to white */
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'MyCustomBold', sans-serif;
     font-weight: bold;
     font-size: 2.3rem; /* Set the font size to 2rem */
 }
 .project-description{
     color: white; /* Set the text color to white */
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'MyCustomFont', sans-serif;
     font-size: 1.7rem; /* Set the font size to 1.2rem */
     padding: 1%;
 }
@@ -82,4 +96,31 @@
 .contact-link{
     text-decoration: none; /* Remove underline from links */
             color: inherit;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 600px) {
+    .head-title {
+        font-size: 2.0rem; /* Adjusted font size for smaller screens */
+    }
+
+    .second-title {
+        font-size: 1.3rem; /* Adjusted font size for smaller screens */
+    }
+
+    .project-title {
+        font-size: 1.2rem; /* Adjusted font size for smaller screens */
+    }
+
+    .project-description {
+        font-size: 1.0rem; /* Adjusted font size for smaller screens */
+    }
+
+    .contact-info {
+        font-size: 1.2rem; /* Adjusted font size for smaller screens */
+    }
+
+    .button {
+        font-size: 14px; /* Adjusted font size for buttons */
+    }
 }
